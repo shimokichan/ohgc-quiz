@@ -35,8 +35,8 @@ const T = {
 
 // ─── EXTERNAL LINKS ───────────────────────────────────────────────
 // Replace these with your actual URLs when ready
-const BEEHIIV_SUBSCRIBE_URL = "https://your-beehiiv-subscribe-url.com"; // ← Your Beehiiv signup page
-const IDEA_BANK_SHOP_URL = "https://your-shop-url.com"; // ← Your Stan Store / product page
+const BEEHIIV_SUBSCRIBE_URL = "https://otakuhotgirlsclub.beehiiv.com/"; // ← Your Beehiiv signup page
+const IDEA_BANK_SHOP_URL = "https://otakuhotgirlsclub.beehiiv.com/products/the-ohgc-content-idea-bank-200-ideas-built-for-women-otaku-creators"; // ← Your Stan Store / product page
 
 // ─── ARCHETYPES ───────────────────────────────────────────────────
 const TYPES = {
@@ -1434,7 +1434,7 @@ function GeneratorScreen({ result, userName, interests, comfort, ideas, onReques
           {/* Shop button */}
           <a href={IDEA_BANK_SHOP_URL} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
             <PixelButton primary={false} fullWidth>
-              SHOP THE FULL IDEA BANKS →
+              SHOP THE FULL IDEA BANK →
             </PixelButton>
           </a>
         </div>
